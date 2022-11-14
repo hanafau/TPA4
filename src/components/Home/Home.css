@@ -1,0 +1,134 @@
+* {
+  font-family: "Poppins";
+}
+
+/* .navbar {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/BG.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sub-navbar {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 38%;
+}
+
+.sub-navbar h2 {
+  color: white;
+  font-size: 35px;
+}
+
+.sub-navbar ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 30px;
+}
+
+.sub-navbar ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.sub-navbar ul li::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  margin: auto;
+  transition: 0.4s;
+}
+
+.sub-navbar ul li:hover::after {
+  width: 100%;
+}
+
+.teks {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.teks h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 35px;
+  line-height: 70px;
+} */
+
+.about {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.main-about img {
+  height: auto;
+  width: 250px;
+}
+
+.about-teks {
+  width: 550px;
+  padding-left: 100px;
+}
+
+.main-about {
+  width: 1000px;
+  max-width: 95%;
+  margin-left: 225px;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio {
+  padding-bottom: 100px;
+  background-color: rgb(173, 219, 223);
+}
+
+.portfolio h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.porto-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  grid-gap: 1rem;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.box {
+  position: relative;
+  margin-top: 2rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-img img {
+  height: auto;
+  width: 520px;
+}
+
+.box a {
+  text-decoration: none;
+  color: black;
+}
+
+.box h3 {
+  font-size: large;
+  padding-top: 15px;
+}

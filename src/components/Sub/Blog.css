@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.about {
+  width: 100%;
+  padding: 45px 0px;
+  background-color: rgb(230, 230, 230);
+}
+
+.about h1 {
+  padding-left: 150px;
+  padding-bottom: 20px;
+}
+
+.about img {
+  height: auto;
+  width: 400px;
+  padding-bottom: 30px;
+}
+
+.about-teks {
+  width: 550px;
+  margin-top: -60px;
+  margin-left: 50px;
+}
+
+.about-teks a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-about {
+  width: 900px;
+  max-width: 95%;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
