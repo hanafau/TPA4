@@ -1,5 +1,6 @@
 import React from "react";
 import "../Home/Home.css";
+import { foto2 } from "img";
 
 function Home() {
   return (
@@ -33,7 +34,7 @@ function Home() {
 
       <section className="about" id="about">
         <div className="main-about">
-          <img src="../img/foto2.png" />
+          <img src={foto2} alt="foto" />
           <div className="about-teks">
             <h2>About Me</h2>
             <p>
