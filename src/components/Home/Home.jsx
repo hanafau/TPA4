@@ -21,7 +21,7 @@ function Home() {
         <div className="porto-container">
           <div className="box">
             <div className="box-img">
-              <img src="../img/p1.png" alt="" />
+              <img src="../img/p1.png" alt="website sabiDoc" />
             </div>
             <h3>
               <a href="/Porto1">Website Konsultasi Kesehatan</a>
@@ -29,7 +29,7 @@ function Home() {
           </div>
           <div className="box">
             <div className="box-img">
-              <img src="../img/p2.png" alt="" />
+              <img src="../img/p2.png" alt="website e-commerce" />
             </div>
             <h3>
               <a href="/Porto2">Website E-Commerce</a>
