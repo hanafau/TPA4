@@ -1,40 +1,12 @@
 import React from "react";
 import "../Home/Home.css";
-import { foto2 } from "img";
 
 function Home() {
   return (
     <div>
-      {/* <div className="navbar" id="navbar">
-        <div className="sub-navbar">
-          <h2>Ha</h2>
-          <ul>
-            <a href="/">
-              <li>Home</li>
-            </a>
-            <a href="#about">
-              <li>About</li>
-            </a>
-            <a href="#portfolio">
-              <li>Portfolio</li>
-            </a>
-            <a href="/blog">
-              <li>Blog</li>
-            </a>
-          </ul>
-        </div>
-        <div className="teks">
-          <h1>
-            Hello
-            <br />
-            I'm Hana Fauziah
-          </h1>
-        </div>
-      </div> */}
-
       <section className="about" id="about">
         <div className="main-about">
-          <img src={foto2} alt="foto" />
+          <img src="../img/foto2.png" />
           <div className="about-teks">
             <h2>About Me</h2>
             <p>
