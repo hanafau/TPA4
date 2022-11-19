@@ -1,4 +1,5 @@
 import "../components/Navbar.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -6,17 +7,23 @@ function Navbar() {
       <div className="sub-navbar">
         <h2>Ha</h2>
         <ul>
-          <a href="/">
-            <li>Home</li>
+          <a>
+            <Link to={"/"}>
+              <li>Home</li>
+            </Link>
           </a>
-          <a href="#about">
-            <li>About</li>
+          <a>
+            <Link to={"/About"}>
+              <li>About</li>
+            </Link>
           </a>
           <a href="#portfolio">
             <li>Portfolio</li>
           </a>
-          <a href="/blog">
-            <li>Blog</li>
+          <a>
+            <Link to={"/Blog"}>
+              <li>Blog</li>
+            </Link>
           </a>
         </ul>
       </div>
