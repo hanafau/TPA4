@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import React from "react";
 import "../Home/Home.css";
 
@@ -11,7 +12,7 @@ function Home() {
             <h2>About Me</h2>
             <p>
               saya Hana Fauziah, saya seorang mahasiswa dari Universitas Amikom Yogyakarta dengan jurusan Sistem Informasi. disini saya mengikuti salah satu program pemerintah yaitu kampus merdeka
-              <a href="/About"> Baca lebih lanjut...</a>
+              <Link to={"/About"}>Baca lebih lanjut...</Link>
             </p>
           </div>
         </div>
@@ -24,7 +25,7 @@ function Home() {
               <img src="../img/p1.png" alt="website sabiDoc" />
             </div>
             <h3>
-              <a href="/Porto1">Website Konsultasi Kesehatan</a>
+              <Link to={"/Porto1"}>Website Konsultasi Kesehatan</Link>
             </h3>
           </div>
           <div className="box">
@@ -32,7 +33,7 @@ function Home() {
               <img src="../img/p2.png" alt="website e-commerce" />
             </div>
             <h3>
-              <a href="/Porto2">Website E-Commerce</a>
+              <Link to={"/Porto2"}>Website E-Commerce</Link>
             </h3>
           </div>
         </div>
